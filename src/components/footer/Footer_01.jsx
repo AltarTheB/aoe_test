@@ -68,12 +68,13 @@ const Footer_01 = () => {
               />
             </Link>
             <p>
-              Our mission is to harness the power of AI to solve complex
-              business challenges &amp; decision-makers with data-driven
-              insights, and enhance user experiences across digital platforms.
+              ул. Тест, 123, Талдыкорган
             </p>
             <p>
-              Website: <Link to='/'>www.example.com</Link>
+              +7 495 123 4567
+            </p>
+            <p>
+              info@synaqtest.ru
             </p>
           </div>
           {/* Footer Widget */}
@@ -81,7 +82,7 @@ const Footer_01 = () => {
           <div className='flex flex-col gap-y-6'>
             {/* Footer Title */}
             <h4 className='text-[21px] font-semibold capitalize text-black'>
-              Primary Pages
+              Популярные ссылки
             </h4>
             {/* Footer Title */}
             {/* Footer Navbar */}
@@ -91,7 +92,7 @@ const Footer_01 = () => {
                   to='/'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Home
+                  Главная
                 </Link>
               </li>
               <li>
@@ -99,7 +100,7 @@ const Footer_01 = () => {
                   to='/about'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  About Us
+                  О нас
                 </Link>
               </li>
               <li>
@@ -107,7 +108,7 @@ const Footer_01 = () => {
                   to='/services'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Services
+                  Цены
                 </Link>
               </li>
               <li>
@@ -115,7 +116,7 @@ const Footer_01 = () => {
                   to='/pricing'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  pricing
+                  Библиотека
                 </Link>
               </li>
               <li>
@@ -123,7 +124,7 @@ const Footer_01 = () => {
                   to='/contact'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Contact
+                  Контакты
                 </Link>
               </li>
             </ul>
@@ -133,7 +134,7 @@ const Footer_01 = () => {
           <div className='flex flex-col gap-y-6'>
             {/* Footer Title */}
             <h4 className='text-[21px] font-semibold capitalize text-black'>
-              Utility pages
+              Другие страницы
             </h4>
             {/* Footer Title */}
             {/* Footer Navbar */}
@@ -143,7 +144,7 @@ const Footer_01 = () => {
                   to='/signup'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Signup
+                  Регистрация
                 </Link>
               </li>
               <li>
@@ -151,7 +152,7 @@ const Footer_01 = () => {
                   to='/login'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Login
+                  Вход
                 </Link>
               </li>
               <li>
@@ -159,7 +160,7 @@ const Footer_01 = () => {
                   to='/error-404'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  404 Not found
+                  404 страница
                 </Link>
               </li>
               <li>
@@ -167,7 +168,7 @@ const Footer_01 = () => {
                   to='/reset-password'
                   className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
                 >
-                  Password Reset
+                  Восстановление пароля
                 </Link>
               </li>
             </ul>
@@ -177,7 +178,7 @@ const Footer_01 = () => {
           <div className='flex flex-col gap-y-6'>
             {/* Footer Title */}
             <h4 className='text-[21px] font-semibold capitalize text-black'>
-              Subscribe to our newsletter
+              Рассылка на новости
             </h4>
             {/* Footer Title */}
             {/* Footer Subscriber Form */}
@@ -187,7 +188,7 @@ const Footer_01 = () => {
                   type='email'
                   name='newsletter-email'
                   id='newsletter-email'
-                  placeholder='Enter your email'
+                  placeholder='Ваш Email'
                   className='p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none'
                   required=''
                 />
@@ -211,8 +212,7 @@ const Footer_01 = () => {
         {/* Footer Bottom */}
         <div className='py-9 text-center'>
           <p>
-            © Copyright {new Date().getFullYear()}, All Rights Reserved by
-            Mthemeus
+            © Copyright {new Date().getFullYear()}, Все права защищены @synaqtest
           </p>
         </div>
         {/* Footer Bottom */}

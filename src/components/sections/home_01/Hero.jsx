@@ -20,13 +20,13 @@ const Hero = () => {
               <div className='jos flex flex-wrap justify-center gap-6' data-jos_animation='fade'>
                 <Link
                   to='/payment'
-                  className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[50px] border-2 border-[#2124B1] bg-[#2124B1] py-4 text-white after:bg-[#2124B1] hover:border-[#2124B1] hover:text-white'
                 >
                   Попробовать
                 </Link>
                 <Link
                   to='/about'
-                  className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-black after:bg-[#2124B1] hover:border-[#2124B1] hover:text-white'
                 >
                   Узнать больше
                 </Link>
@@ -34,14 +34,14 @@ const Hero = () => {
             </div>
             <div className='jos hero-img overflow-hidden rounded-2xl bg-black' data-jos_animation='zoom'>
               <img
-                src='assets/img/th-1/hero-dashboard.png'
+                src='assets/img/th-1/q.gif'
                 alt='hero-dashboard'
                 width='1296'
                 height='640'
                 className='h-auto w-full'
               />
             </div>
-            <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
+            {/* <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
             <div className='jos brand-slider' data-jos_animation='fade'>
               <Swiper
                 slidesPerView={2}
@@ -154,10 +154,10 @@ const Hero = () => {
                   />
                 </SwiperSlide>
               </Swiper>
-            </div>
+            </div> */}
           </div>
-          <div className='orange-gradient-1 absolute -right-[150px] top-[370px] -z-[1] h-[500px] w-[500px] animate-spin rounded-[500px]'></div>
-          <div className='orange-gradient-2 absolute right-[57px] top-[620px] -z-[1] h-[450px] w-[450px] animate-spin rounded-[450px]'></div>
+          <div className='blue-gradient-1 absolute -right-[150px] top-[370px] -z-[1] h-[500px] w-[500px] animate-spin rounded-[500px]'></div>
+          <div className='blue-gradient-2 absolute right-[57px] top-[620px] -z-[1] h-[450px] w-[450px] animate-spin rounded-[450px]'></div>
         </div>
       </section>
     </>

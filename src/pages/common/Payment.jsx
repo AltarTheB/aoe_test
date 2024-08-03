@@ -47,16 +47,23 @@ const Payment = () => {
             <h3>Выберите вид экзамена</h3>
             <div className="payment-method">
               <button
-                className={`exam-button ${selectedExam === '9 класс МОДО' ? 'selected' : ''}`}
-                onClick={() => setSelectedExam('9 класс МОДО')}
+                className={`exam-button ${selectedExam === 'ЕНТ' ? 'selected' : ''}`}
+                onClick={() => setSelectedExam('ЕНТ')}
               >
-                9 класс МОДО
+                ЕНТ
               </button>
               <button
                 className={`exam-button ${selectedExam === '11 класс ЕНТ' ? 'selected' : ''}`}
                 onClick={() => setSelectedExam('11 класс ЕНТ')}
               >
-                11 класс ЕНТ
+                Админ срез
+              </button>
+
+              <button
+                className={`exam-button ${selectedExam === 'Озп' ? 'selected' : ''}`}
+                onClick={() => setSelectedExam('Озп')}
+              >
+                Озп
               </button>
             </div>
             <div className="button-container">

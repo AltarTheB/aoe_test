@@ -8,11 +8,11 @@ const Test = () => {
   };
 
   return (
-    <main className='main-wrapper relative overflow-hidden pt-[150px] pb-[150px]'>
+    <main className='test-page main-wrapper relative overflow-hidden pt-[150px] pb-[150px]'>
       <div className="test-container">
         <div className="question-nav">
-          <button className="nav-button prev-button">Предыдущий сұрақ</button>
-          <button className="nav-button next-button">Следующий сұрақ</button>
+          <button className="nav-button prev-button">Предыдущий предмет</button>
+          <button className="nav-button next-button">Следующий предмет</button>
         </div>
         <h3>Бөлім: Тарих (Қазақстан тарихы/Дүниежүзі тарихы)</h3>
         <div className="questions-list">
@@ -56,8 +56,6 @@ const Test = () => {
           <button id="next-question" className="nav-button next-button">Следующий сұрақ</button>
         </div>
       </div>
-
-
     </main>
   );
 };

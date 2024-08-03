@@ -25,7 +25,7 @@ const Pricing = () => {
                 className='jos flex justify-center'
                 data-jos_animation='fade'
               >
-                <div className='inline-flex space-x-4 rounded-[50px] border-2 border-black font-semibold'>
+                <div className='inline-flex space-x-4 rounded-[50px] border-2 border-[#2124B1] font-semibold'>
                   <button
                     className={`tab-button price-button ${
                       activeTab === 0 ? 'active' : ''
@@ -57,7 +57,7 @@ const Pricing = () => {
                   >
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
@@ -67,7 +67,7 @@ const Pricing = () => {
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>
                           /один тест
                         </span>
@@ -77,7 +77,7 @@ const Pricing = () => {
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
@@ -85,28 +85,27 @@ const Pricing = () => {
                     {/* Price Item */}
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
                       <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Админ срез
+                        Админ срез
                       </h3>
-                      
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>
-                        /один тест
+                          /один тест
                         </span>
                       </h4>
                       <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Отлично подходит для тех кто сдает ОЗП
+                        Отлично подходит для тех кто сдает ОЗП
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
@@ -114,28 +113,27 @@ const Pricing = () => {
                     {/* Price Item */}
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
                       <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      ЕНТ
+                        ЕНТ
                       </h3>
-                      
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>
-                        /один тест
+                          /один тест
                         </span>
                       </h4>
                       <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Отлично подходит для тех кто сдает ОЗП
+                        Отлично подходит для тех кто сдает ОЗП
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
@@ -152,26 +150,25 @@ const Pricing = () => {
                   >
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
                       <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         ОЗП
                       </h3>
-                     
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>/один тест</span>
                       </h4>
                       <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Отлично подходит для тех кто сдает ОЗП
+                        Отлично подходит для тех кто сдает ОЗП
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
@@ -179,26 +176,25 @@ const Pricing = () => {
                     {/* Price Item */}
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
                       <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         ОЗП
                       </h3>
-                     
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>/один тест</span>
                       </h4>
                       <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Отлично подходит для тех кто сдает ОЗП
+                        Отлично подходит для тех кто сдает ОЗП
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
@@ -206,31 +202,29 @@ const Pricing = () => {
                     {/* Price Item */}
                     {/* Price Item */}
                     <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
+                      className='jos group flex flex-col rounded-[10px] bg-[#f1f5f9] p-10 transition-all duration-300 ease-linear hover:bg-[#2124B1]'
                       data-jos_animation='flip'
                       data-jos_delay='0'
                     >
                       <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
                         ОЗП
                       </h3>
-                     
 
                       <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
                       <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                      100₸
+                        100₸
                         <span className='text-lg font-semibold'>/один тест</span>
                       </h4>
                       <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                      Отлично подходит для тех кто сдает ОЗП
+                        Отлично подходит для тех кто сдает ОЗП
                       </p>
                       <Link
                         to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
+                        className='button mt-auto block rounded-[50px] border-2 border-[#2124B1] bg-transparent py-4 text-center text-[#2124B1] transition-all duration-300 ease-linear after:bg-[#2124B1] hover:border-[#2124B1] hover:text-black group-hover:border-[#2124B1] group-hover:text-white'
                       >
                         Оплатить
                       </Link>
                     </li>
-                    {/* Price Item */}
                     {/* Price Item */}
                   </ul>
                 )}

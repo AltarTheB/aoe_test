@@ -101,7 +101,7 @@ h5 {
 
 
 .payment-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   background: white;
@@ -133,7 +133,7 @@ h2 {
 }
 
 .step.active .circle {
-  background: #4caf50;
+  background: #2124B1;
   color: white;
 }
 
@@ -160,14 +160,14 @@ h2 {
 
 .exam-button, .tariff-button, .payment-method-button {
   padding: 10px 20px;
-  border: 2px solid #4caf50;
+  border: 2px solid #2124B1;
   border-radius: 5px;
   background: white;
   cursor: pointer;
 }
 
 .exam-button.selected, .tariff-button.selected, .payment-method-button.selected {
-  background: #4caf50;
+  background: #2124B1;
   color: white;
 }
 
@@ -184,40 +184,49 @@ h2 {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: #4caf50;
+  background: #2124B1;
   color: white;
   cursor: pointer;
   margin: 5px;
 }
+
 .test-container {
-  max-width: 800px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 20px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin-bottom: 200px;
+  margin-top: 40px;
 }
 
 .question-nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .question-nav .nav-button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: #4caf50;
+  background: #2124B1;
   color: white;
   cursor: pointer;
+  justify-content: space-between;
+  flex: none;
+}
+
+.test-container h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .questions-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .question-buttons {
@@ -229,14 +238,19 @@ h2 {
 .question-btn {
   margin: 5px;
   padding: 10px 15px;
-  border: 2px solid #4caf50;
+  border: 2px solid #2124B1;
   border-radius: 5px;
   background: white;
   cursor: pointer;
 }
 
+.navigation-buttons .nav-button {
+  flex: none;
+  margin-top: 30px;
+}
+
 .question-btn.selected {
-  background: #4caf50;
+  background: #2124B1;
   color: white;
 }
 
@@ -250,7 +264,7 @@ h2 {
 
 .answer-options label {
   display: block;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .navigation-buttons {
@@ -259,23 +273,39 @@ h2 {
   margin-top: 20px;
 }
 
+.question-text p {
+  font-size: 24px;
+}
+
 .navigation-buttons .nav-button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: #4caf50;
+  background: #2124B1;
   color: white;
   cursor: pointer;
 }
 
 .payment-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+.payment-container .content h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
@@ -311,7 +341,7 @@ h2 {
 }
 
 .step.active .circle {
-  background: #4caf50;
+  background: #2124B1;
   color: white;
 }
 
@@ -338,14 +368,14 @@ h2 {
 
 .exam-button, .tariff-button, .payment-method-button {
   padding: 10px 20px;
-  border: 2px solid #4caf50;
+  border: 2px solid #2124B1;
   border-radius: 5px;
   background: white;
   cursor: pointer;
 }
 
 .exam-button.selected, .tariff-button.selected, .payment-method-button.selected {
-  background: #4caf50;
+  background: #2124B1;
   color: white;
 }
 
@@ -362,8 +392,53 @@ h2 {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: #4caf50;
+  background: #2124B1;
   color: white;
   cursor: pointer;
   margin: 5px;
+}
+.blue-gradient-1 {
+  background: radial-gradient(50% 50% at 50% 50%, #b5b6f1 0%, #7375cc 100%);
+  filter: blur(55px);
+}
+
+.blue-gradient-2 {
+  background: radial-gradient(50% 50% at 50% 50%, #abadf7 0%, #7375cc 100%);
+  filter: blur(55px);
+}
+
+/* Styles for the background with gradients and balls */
+.test-page {
+  position: relative;
+  background: linear-gradient(135deg, #c4c5ff 0%, #4c5bd4 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-gradient-1 {
+  background: radial-gradient(50% 50% at 50% 50%, #2124B1 0%, #4c5bd4 100%);
+  filter: blur(55px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.blue-gradient-2 {
+  background: radial-gradient(50% 50% at 50% 50%, #4c5bd4 0%, #2124B1 100%);
+  filter: blur(55px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+/* Centering the test content */
+.test-container {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 900px;
+  z-index: 10;
 }
